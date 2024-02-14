@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --background-desktop: #2E1012;
+    --backgound-main: #F3CC4D;
+}
+
+.container-fluid{
+    display: flex;
+    background-color: var(--background-desktop);
+    height: 100vh;
+    justify-content: center;
+}
+
+.col-4{
+    background-color: var(--backgound-main);
+    height: 100vh;
+}
+.img-fluid{
+   width: 270px;
+   
+}
