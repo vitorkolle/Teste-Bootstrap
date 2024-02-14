@@ -7,19 +7,36 @@
     --background-desktop: #2E1012;
     --backgound-main: #F3CC4D;
 }
-
 .container-fluid{
     display: flex;
     background-color: var(--background-desktop);
     height: 100vh;
     justify-content: center;
-}
-
-.col-4{
+}  
+.background img{
+    position: absolute;
+    left: 5%;
+    top: 12%;
+    z-index: 1;
+    width: 175vh;
+    opacity: 0.45;
+} 
+.col{
     background-color: var(--backgound-main);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: fit-content;
     height: 100vh;
+    z-index: 2;
 }
-.img-fluid{
-   width: 270px;
-   
+.img-main{
+   width: 269px;
+   height: 116px;
+   margin: 8.8vh 13.392vh 8.096vh 13.392vh;   
+}
+.text-center{
+    width: 52vh;
+    font-family: "Indie Flower", cursive;
+    margin-bottom: 11vh;
 }
