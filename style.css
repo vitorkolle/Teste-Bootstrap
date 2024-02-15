@@ -65,26 +65,9 @@ img{
 
 
 @media (max-width: 768px){
-    .container-fluid{
-        position: fixed;
-    }
     .col{
         z-index: 0;
         position: fixed;
-    }
-    .background img{
-      visibility: hidden;
-    } 
-    .img-bombom2{
-        visibility: hidden;
-    }
-    .img-bombom1{
-        margin-right: -56vh;
-        opacity: 0.2;
-        z-index: 1;
-    }
-    .img-bombom1 img{
-        width: 60vh;
     }
     .text-center{
         width: 45vh;
