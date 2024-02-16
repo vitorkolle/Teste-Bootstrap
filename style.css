@@ -70,15 +70,6 @@ img{
         position: fixed;
     }
     .text-center{
-        width: 45vh;
         font-family: "Indie Flower", cursive;
-        color: black;
-        font-weight: 400;
-        margin-bottom: 9vh;
-    }
-    .bt{
-        height: 10vh;
-        width: 40vh;
-        margin-top: -5vh;
     }
 }
