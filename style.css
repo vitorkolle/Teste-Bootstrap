@@ -31,16 +31,6 @@
 img{
     width: 45vh;
 }
-.bt{
-    background-color: var(--background-desktop);
-    font-family:"Indie Flower", cursive;
-    color: white;
-    width: 28vh;
-    height: 7vh;
-    font-size: 30px;
-    border: #2E1012;
-}
-
 
 @media (max-width: 768px){
     .col{
